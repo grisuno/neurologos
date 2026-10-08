@@ -1,0 +1,617 @@
+{
+  "concepts": [
+    {
+      "name": "con",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 32,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "forward",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 30,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "tricameral",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 30,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "apply",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 27,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "get",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 27,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "compute",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 26,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "update",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 26,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "calculate",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 19,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "del",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 19,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "bleu",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "flickr8k",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 16,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "sistema",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "dataset",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "metrics",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "ling",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "state",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "token",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "accuracy",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "callosum",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "que",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "buffer",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "corpus",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "gramas",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "hemisphere",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "logos",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "neuro",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "neurologos",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "signals",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "solo",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "sticas",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "tokens",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "triangulated",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "tricas",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "entre",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "intervention",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "language",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "loss",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "ngrams",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "overlap",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "sentence",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "surprise",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "system",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "word",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "est",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "liquid",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "neuron",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "sample",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "una",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "len",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "stable",
+      "files": [
+        "neurologos_tricameral_loss2.7.py",
+        "neurologos_tricameral_loss3.9.py",
+        "neurologos_tricameral_loss4.5.py",
+        "neurologos_tricameral_loss5.4.py",
+        "neurologos_tricameral_loss8.0.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [],
+  "dialectic": [
+    "Thesis: `accuracy` centralizes 5 files; Antithesis: `apply` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `accuracy` centralizes 5 files; Antithesis: `bleu` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `accuracy` centralizes 5 files; Antithesis: `buffer` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `accuracy` centralizes 5 files; Antithesis: `calculate` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `accuracy` centralizes 5 files; Antithesis: `callosum` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `accuracy` centralizes 5 files; Antithesis: `compute` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `accuracy` centralizes 5 files; Antithesis: `con` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `accuracy` centralizes 5 files; Antithesis: `corpus` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `accuracy` centralizes 5 files; Antithesis: `dataset` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `accuracy` centralizes 5 files; Antithesis: `del` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}
