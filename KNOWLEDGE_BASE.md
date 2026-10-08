@@ -11,7 +11,7 @@
 
 **Total Files Parsed:** 7 | **Total Symbols Extracted:** 419 | **Total Imports:** 127
 
-<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:1e0fd0b | date:2026-07-18 -->
+<!-- ranking_model: v1.0 | weights: {ppr:0.45,auth:0.2,test:0.15,doc:0.1,fresh:0.1} | alpha:0.85 | commit:05a4468 | date:2026-07-18 -->
 
 
 ## Table of Contents
@@ -26,13 +26,12 @@
 8. [Change Impact Analysis](#change-impact-analysis)
 9. [Suggested Linting Rules](#suggested-linting-rules)
 10. [Dataflow Analysis](#dataflow-analysis)
-11. [Concept Graph](#concept-graph)
-12. [Orphans](#orphans)
-13. [Query Recipes](#query-recipes)
-14. [Structural Knowledge Map](#structural-knowledge-map)
-15. [UML Class Diagram](#uml-class-diagram)
-16. [Code Property Graph](#code-property-graph)
-17. [Architecture Reference](#architecture-reference)
+11. [Orphans](#orphans)
+12. [Query Recipes](#query-recipes)
+13. [Structural Knowledge Map](#structural-knowledge-map)
+14. [UML Class Diagram](#uml-class-diagram)
+15. [Code Property Graph](#code-property-graph)
+16. [Architecture Reference](#architecture-reference)
     - [PY (6 files)](#py-6-files)
     - [SH (1 files)](#sh-1-files)
 
@@ -193,60 +192,6 @@ Procedural intra-function dataflow findings (zero tokens, regex-based heuristics
 | `neurologos_tricameral_loss4.5.py` | `__getitem__` | 977 | `UNCHECKED_ALLOC` | `image` | Result of allocator stored in `image` is never checked against NULL. |
 | `neurologos_tricameral_loss5.4.py` | `__getitem__` | 2616 | `UNCHECKED_ALLOC` | `image` | Result of allocator stored in `image` is never checked against NULL. |
 | `neurologos_tricameral_loss8.0.py` | `__getitem__` | 2531 | `UNCHECKED_ALLOC` | `image` | Result of allocator stored in `image` is never checked against NULL. |
-
----
-
-## Concept Graph
-
-Semantic second-brain layer: nouns are concept nodes, verbs are edges. Each noun maps atomically to a file set (EXTRACTED); each verb aggregates structural imports, calls, and inherits into consumes, invokes, extends, depends_on, or bridges (INFERRED).
-
-**50 concepts, 0 relations.**
-
-| Concept | Files | Mentions |
-|---------|-------|----------|
-| `con` | 5 | 32 |
-| `forward` | 5 | 30 |
-| `tricameral` | 5 | 30 |
-| `apply` | 5 | 27 |
-| `get` | 5 | 27 |
-| `compute` | 5 | 26 |
-| `update` | 5 | 26 |
-| `calculate` | 5 | 19 |
-| `del` | 5 | 19 |
-| `bleu` | 5 | 16 |
-| `flickr8k` | 5 | 16 |
-| `sistema` | 5 | 15 |
-| `dataset` | 5 | 14 |
-| `metrics` | 5 | 14 |
-| `ling` | 5 | 13 |
-| `state` | 5 | 13 |
-| `token` | 5 | 12 |
-| `accuracy` | 5 | 11 |
-| `callosum` | 5 | 11 |
-| `que` | 5 | 11 |
-| `buffer` | 5 | 10 |
-| `corpus` | 5 | 10 |
-| `gramas` | 5 | 10 |
-| `hemisphere` | 5 | 10 |
-| `logos` | 5 | 10 |
-| `neuro` | 5 | 10 |
-| `neurologos` | 5 | 10 |
-| `signals` | 5 | 10 |
-| `solo` | 5 | 10 |
-| `sticas` | 5 | 10 |
-
-### Dialectic Prompts
-
-- Thesis: `accuracy` centralizes 5 files; Antithesis: `apply` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `accuracy` centralizes 5 files; Antithesis: `bleu` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `accuracy` centralizes 5 files; Antithesis: `buffer` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `accuracy` centralizes 5 files; Antithesis: `calculate` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `accuracy` centralizes 5 files; Antithesis: `callosum` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `accuracy` centralizes 5 files; Antithesis: `compute` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `accuracy` centralizes 5 files; Antithesis: `con` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `accuracy` centralizes 5 files; Antithesis: `corpus` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `accuracy` centralizes 5 files; Antithesis: `dataset` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
-- Thesis: `accuracy` centralizes 5 files; Antithesis: `del` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?
 
 ---
 

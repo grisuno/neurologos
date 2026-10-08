@@ -1,8 +1,8 @@
 # Subsystem: root
 
 ## app.py
-- Doc: Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación...
 - Layer: utility
+- Doc: app.py  Autor: Gris Iscomeback Correo electrónico: grisiscomeback[at]gmail[dot]com Fecha de creación: xx/xx/xxxx Licenci
 - Language: py
 
 ## install.sh
@@ -10,8 +10,8 @@
 - Language: sh
 
 ## neurologos_tricameral_loss2.7.py
-- Doc: LanguageMetrics: Métricas de calidad de generación
 - Layer: utility
+- Doc: ============================================================================= NeuroLogos TRICAMERAL v5.1 Hemisferio Dere
 - Language: py
 - Symbols:
   - `setup_flickr8k_with_audio` (function, line 53) `def setup_flickr8k_with_audio(data_dir)`
@@ -33,7 +33,7 @@
   - `NeuroLogosTricameral` (class, line 2215) `class NeuroLogosTricameral(Module)`
   - `Flickr8kMultimodalDataset` (class, line 2250) `class Flickr8kMultimodalDataset(Dataset)`
   - `compute_alignment_loss` (method, line 2354) `def compute_alignment_loss(visual_features, channels, alpha, epoch)`
-  - `compute_tricameral_loss` (method, line 2382) `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward...`
+  - `compute_tricameral_loss` (method, line 2382) `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward, lambda_reward, lambda_mtp)`
   - `train_tricameral` (method, line 2429) `def train_tricameral()`
   - `__init__` (method, line 266) `def __init__(self, working_capacity, short_term_capacity, importance_threshold)`
   - `compute_surprise` (method, line 292) `def compute_surprise(self, predicted_logits, ground_truth, gate_mean)`
@@ -116,8 +116,8 @@
   - `__getitem__` (method, line 2305) `def __getitem__(self, idx)`
 
 ## neurologos_tricameral_loss3.9.py
-- Doc: NeurocognitiveSystem: Sistema neurocognitivo que complementa al sistema médico para optimizar el...
 - Layer: utility
+- Doc: ============================================================================= NeuroLogos Bicameral FISIOLÓGICO v3.5 + Mé
 - Language: py
 - Symbols:
   - `compute_loss` (function, line 20) `def compute_loss(logits, captions, gate, vocab, linguistic_reward, lambda_reward)`
@@ -192,8 +192,8 @@
   - `__getitem__` (method, line 1729) `def __getitem__(self, idx)`
 
 ## neurologos_tricameral_loss4.5.py
-- Doc: LanguageMetrics: Métricas de calidad de generación
 - Layer: utility
+- Doc: ============================================================================= NeuroLogos Bicameral FISIOLÓGICO v3.5 + Mé
 - Language: py
 - Symbols:
   - `compute_loss` (function, line 20) `def compute_loss(logits, captions, gate, vocab)`
@@ -249,8 +249,8 @@
   - `__getitem__` (method, line 975) `def __getitem__(self, idx)`
 
 ## neurologos_tricameral_loss5.4.py
-- Doc: HierarchicalEpisodicMemory: Memoria episódica optimizada con estabilización numérica en sampling...
 - Layer: utility
+- Doc: ============================================================================= NeuroLogos TRICAMERAL v5.1 Hemisferio Dere
 - Language: py
 - Symbols:
   - `preprocess_and_cache_spectrograms` (function, line 49) `def preprocess_and_cache_spectrograms(audio_dir, cache_dir, sample_rate, target_len)`
@@ -276,7 +276,7 @@
   - `NeuroLogosTricameral` (class, line 2515) `class NeuroLogosTricameral(Module)`
   - `Flickr8kMultimodalDataset` (class, line 2550) `class Flickr8kMultimodalDataset(Dataset)`
   - `compute_alignment_loss` (method, line 2666) `def compute_alignment_loss(visual_features, channels, alpha, epoch)`
-  - `compute_tricameral_loss` (method, line 2695) `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward...`
+  - `compute_tricameral_loss` (method, line 2695) `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward, channels, epoch, lambda_reward, lambda_mtp)`
   - `train_tricameral` (method, line 2812) `def train_tricameral()`
   - `__init__` (method, line 347) `def __init__(self, working_capacity, short_term_capacity, importance_threshold)`
   - `compute_surprise` (method, line 371) `def compute_surprise(self, predicted_logits, ground_truth, gate_mean)`
@@ -353,13 +353,13 @@
   - `report` (method, line 2429) `def report(self, epoch)`
   - `__init__` (method, line 2518) `def __init__(self, vocab_size)`
   - `forward` (method, line 2525) `def forward(self, image, audio, captions, epoch)`
-  - `__init__` (method, line 2553) `def __init__(self, images_dir, audio_dir, captions_file, vocab, img_transform, max_len, sample_rate, use_cache...`
+  - `__init__` (method, line 2553) `def __init__(self, images_dir, audio_dir, captions_file, vocab, img_transform, max_len, sample_rate, use_cache, cache_dir)`
   - `__len__` (method, line 2610) `def __len__(self)`
   - `__getitem__` (method, line 2613) `def __getitem__(self, idx)`
 
 ## neurologos_tricameral_loss8.0.py
-- Doc: HierarchicalEpisodicMemory: Memoria episódica optimizada con estabilización numérica en sampling...
 - Layer: utility
+- Doc: ============================================================================= NeuroLogos TRICAMERAL v5.1 Hemisferio Dere
 - Language: py
 - Symbols:
   - `preprocess_and_cache_spectrograms` (function, line 49) `def preprocess_and_cache_spectrograms(audio_dir, cache_dir, sample_rate, target_len)`
@@ -383,7 +383,7 @@
   - `NeuroLogosTricameral` (class, line 2430) `class NeuroLogosTricameral(Module)`
   - `Flickr8kMultimodalDataset` (class, line 2465) `class Flickr8kMultimodalDataset(Dataset)`
   - `compute_alignment_loss` (method, line 2581) `def compute_alignment_loss(visual_features, channels, alpha, epoch)`
-  - `compute_tricameral_loss` (method, line 2610) `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward...`
+  - `compute_tricameral_loss` (method, line 2610) `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward, channels, epoch, lambda_reward, lambda_mtp)`
   - `train_tricameral` (method, line 2727) `def train_tricameral()`
   - `__init__` (method, line 349) `def __init__(self, working_capacity, short_term_capacity, importance_threshold)`
   - `compute_surprise` (method, line 373) `def compute_surprise(self, predicted_logits, ground_truth, gate_mean)`
@@ -454,6 +454,6 @@
   - `report` (method, line 2344) `def report(self, epoch)`
   - `__init__` (method, line 2433) `def __init__(self, vocab_size)`
   - `forward` (method, line 2440) `def forward(self, image, audio, captions, epoch)`
-  - `__init__` (method, line 2468) `def __init__(self, images_dir, audio_dir, captions_file, vocab, img_transform, max_len, sample_rate, use_cache...`
+  - `__init__` (method, line 2468) `def __init__(self, images_dir, audio_dir, captions_file, vocab, img_transform, max_len, sample_rate, use_cache, cache_dir)`
   - `__len__` (method, line 2525) `def __len__(self)`
   - `__getitem__` (method, line 2528) `def __getitem__(self, idx)`

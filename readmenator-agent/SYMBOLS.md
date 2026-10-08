@@ -64,7 +64,7 @@
 | `compute_linguistic_reward` | method | `neurologos_tricameral_loss2.7.py:791` | `def compute_linguistic_reward(self, references, hypotheses)` |
 | `compute_spice` | method | `neurologos_tricameral_loss2.7.py:844` | `def compute_spice(self, reference, hypothesis)` |
 | `compute_surprise` | method | `neurologos_tricameral_loss2.7.py:292` | `def compute_surprise(self, predicted_logits, ground_truth, gate_mean)` |
-| `compute_tricameral_loss` | method | `neurologos_tricameral_loss2.7.py:2382` | `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward...` |
+| `compute_tricameral_loss` | method | `neurologos_tricameral_loss2.7.py:2382` | `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward, lambda_` |
 | `count_convergent_signals` | method | `neurologos_tricameral_loss2.7.py:1211` | `def count_convergent_signals(self, signals, pattern)` |
 | `diagnose_with_triangulation` | method | `neurologos_tricameral_loss2.7.py:1214` | `def diagnose_with_triangulation(self, health_score, liquid_norm, gate_mean, gate_std, callosal_flow, epoch)` |
 | `evaluate_reasoning_quality` | method | `neurologos_tricameral_loss2.7.py:2010` | `def evaluate_reasoning_quality(self, generated_texts, reference_texts, reasoning_steps)` |
@@ -253,7 +253,7 @@
 | `__init__` | method | `neurologos_tricameral_loss5.4.py:1994` | `def __init__(self, dim)` |
 | `__init__` | method | `neurologos_tricameral_loss5.4.py:2208` | `def __init__(self)` |
 | `__init__` | method | `neurologos_tricameral_loss5.4.py:2518` | `def __init__(self, vocab_size)` |
-| `__init__` | method | `neurologos_tricameral_loss5.4.py:2553` | `def __init__(self, images_dir, audio_dir, captions_file, vocab, img_transform, max_len, sample_rate, use_cache...` |
+| `__init__` | method | `neurologos_tricameral_loss5.4.py:2553` | `def __init__(self, images_dir, audio_dir, captions_file, vocab, img_transform, max_len, sample_rate, use_cache, cache_di` |
 | `__len__` | method | `neurologos_tricameral_loss5.4.py:2610` | `def __len__(self)` |
 | `_apply_chain_of_thought` | method | `neurologos_tricameral_loss5.4.py:1653` | `def _apply_chain_of_thought(self, hidden_states, visual_context, use_reasoning)` |
 | `_apply_flash_attention` | method | `neurologos_tricameral_loss5.4.py:2057` | `def _apply_flash_attention(self, x)` |
@@ -287,7 +287,7 @@
 | `compute_linguistic_reward` | method | `neurologos_tricameral_loss5.4.py:872` | `def compute_linguistic_reward(self, references, hypotheses)` |
 | `compute_spice` | method | `neurologos_tricameral_loss5.4.py:925` | `def compute_spice(self, reference, hypothesis)` |
 | `compute_surprise` | method | `neurologos_tricameral_loss5.4.py:371` | `def compute_surprise(self, predicted_logits, ground_truth, gate_mean)` |
-| `compute_tricameral_loss` | method | `neurologos_tricameral_loss5.4.py:2695` | `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward...` |
+| `compute_tricameral_loss` | method | `neurologos_tricameral_loss5.4.py:2695` | `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward, channel` |
 | `count_convergent_signals` | method | `neurologos_tricameral_loss5.4.py:1379` | `def count_convergent_signals(self, signals, pattern)` |
 | `diagnose_with_triangulation` | method | `neurologos_tricameral_loss5.4.py:1382` | `def diagnose_with_triangulation(self, health_score, liquid_norm, gate_mean, gate_std, callosal_flow, epoch)` |
 | `evaluate_reasoning_quality` | method | `neurologos_tricameral_loss5.4.py:2305` | `def evaluate_reasoning_quality(self, generated_texts, reference_texts, reasoning_steps)` |
@@ -354,7 +354,7 @@
 | `__init__` | method | `neurologos_tricameral_loss8.0.py:1909` | `def __init__(self, dim)` |
 | `__init__` | method | `neurologos_tricameral_loss8.0.py:2123` | `def __init__(self)` |
 | `__init__` | method | `neurologos_tricameral_loss8.0.py:2433` | `def __init__(self, vocab_size)` |
-| `__init__` | method | `neurologos_tricameral_loss8.0.py:2468` | `def __init__(self, images_dir, audio_dir, captions_file, vocab, img_transform, max_len, sample_rate, use_cache...` |
+| `__init__` | method | `neurologos_tricameral_loss8.0.py:2468` | `def __init__(self, images_dir, audio_dir, captions_file, vocab, img_transform, max_len, sample_rate, use_cache, cache_di` |
 | `__len__` | method | `neurologos_tricameral_loss8.0.py:2525` | `def __len__(self)` |
 | `_apply_chain_of_thought` | method | `neurologos_tricameral_loss8.0.py:1567` | `def _apply_chain_of_thought(self, hidden_states, visual_context, use_reasoning)` |
 | `_apply_flash_attention` | method | `neurologos_tricameral_loss8.0.py:1972` | `def _apply_flash_attention(self, x)` |
@@ -388,7 +388,7 @@
 | `compute_linguistic_reward` | method | `neurologos_tricameral_loss8.0.py:876` | `def compute_linguistic_reward(self, references, hypotheses)` |
 | `compute_spice` | method | `neurologos_tricameral_loss8.0.py:929` | `def compute_spice(self, reference, hypothesis)` |
 | `compute_surprise` | method | `neurologos_tricameral_loss8.0.py:373` | `def compute_surprise(self, predicted_logits, ground_truth, gate_mean)` |
-| `compute_tricameral_loss` | method | `neurologos_tricameral_loss8.0.py:2610` | `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward...` |
+| `compute_tricameral_loss` | method | `neurologos_tricameral_loss8.0.py:2610` | `def compute_tricameral_loss(logits, captions, gate, vocab, visual_post, audio_post, mtp_loss, linguistic_reward, channel` |
 | `count_convergent_signals` | method | `neurologos_tricameral_loss8.0.py:1293` | `def count_convergent_signals(self, signals, pattern)` |
 | `diagnose_with_triangulation` | method | `neurologos_tricameral_loss8.0.py:1296` | `def diagnose_with_triangulation(self, health_score, liquid_norm, gate_mean, gate_std, callosal_flow, epoch)` |
 | `evaluate_reasoning_quality` | method | `neurologos_tricameral_loss8.0.py:2220` | `def evaluate_reasoning_quality(self, generated_texts, reference_texts, reasoning_steps)` |
